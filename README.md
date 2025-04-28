@@ -8,9 +8,15 @@ If the login attempt fails, a **screenshot is automatically captured** and saved
 
 ## 📹 Video Demonstration
 
-
+# Login Fail Automation Demonstration
 
 https://github.com/user-attachments/assets/3178904d-a735-4050-80e4-0baaebfa0c71
+
+# Login Pass Automation Demonstration
+
+
+
+https://github.com/user-attachments/assets/0ae325a0-1942-4f85-940c-d58a62485bb4
 
 
 ---
@@ -43,24 +49,7 @@ https://github.com/user-attachments/assets/3178904d-a735-4050-80e4-0baaebfa0c71
 ------------Script--------------
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import io.github.bonigarcia.wdm.WebDriverManager;
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Objects;
-
-
-#Login Pass 
+# Login Pass Automation
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -77,9 +66,6 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Objects;
-
-
-# Login Pass Automation
 
 public class LoginTest {
 
